@@ -1,0 +1,218 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F5F5F5;
+    width: 1920px;
+    font-family: 'Inter';
+}
+
+header {
+    background: #FFFFFF;
+    width: 1920px;
+    padding: 36px 108px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+#logomarca {
+    width: 33px;
+    height: 33px;
+    margin-left: 4px;
+}
+
+#titulo_logo {
+    color: #C92071;
+    width: 212px;
+    height: 44px;
+    margin-left: 8px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -0.01em;
+}
+
+#pesquisa {
+    background: #f8f8f8;
+    width: 700px;
+    height: 64px;
+    border-radius: 8.64px;
+    border-style: none;
+    color: #666666;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17.28px;
+    line-height: 30px;
+    letter-spacing: 0.81px;
+    opacity: 0.8;
+    padding: 20px;
+}
+
+#pesquisa::placeholder {
+    color: #666666;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17.28px;
+    line-height: 30px;
+    letter-spacing: 0.81px;
+    opacity: 0.8;
+}
+
+#cadastrar {
+    color: #474747;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: 0.81px;
+    text-decoration: none;
+    border-bottom: #474747 1px solid;
+}
+
+#botao_entrar {
+    background: #C92071;
+    width: 123px;
+    height: 43px;
+    border-radius: 8.64px;
+    border-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F5F5F5;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+}
+
+nav {
+    background: #FFFFFF;
+    width: 1920px;
+    padding: 0px 108px 30px 108px;
+}
+
+.categoria {
+    color: #474747;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: 0.81px;
+    margin-right: 34px;
+    text-decoration: none;
+}
+
+.selecionada_sessao {
+    color: #C92071;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+    padding-bottom: 4px;
+    border-bottom: #C92071 3px solid;
+}
+
+main {
+    background: #F5F5F5;
+    height: 600px;
+    padding: 84px 108px;
+    font-family: 'Inter';
+    font-style: normal;
+    display: flex;   
+}
+
+.container {
+    width: 657.24px;
+}
+
+#titulo_sessao {
+    color: #C92071;
+    font-weight: 700;
+    font-size: 17.28px;
+    line-height: 26px;
+    letter-spacing: 0.81px;
+    margin-bottom: 21px;
+}
+
+#titulo_oferta {
+    color: #1F1F1F;
+    font-weight: 800;
+    font-size: 69.12px;
+    line-height: 71px;
+    letter-spacing: 1.08px;
+    margin-bottom: 21px;
+}
+
+#foguinho {
+    width: 55px;
+    height: 60px;
+}
+
+#descricao_oferta {
+    color: #474747;
+    font-weight: 400;
+    font-size: 19.44px;
+    line-height: 37px;
+    letter-spacing: 0.81px;
+    margin-bottom: 42px;
+}
+
+#botao_oferta {
+    background: #C92071;
+    width: 237px;
+    height: 51px;
+    border-radius: 8.64px;
+    border-style: none;
+    color: #F5F5F5;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    letter-spacing: 0.75px;
+}
+
+#imagem_tenis {
+    width: 892.19px;
+    height: 566.13px;
+    filter: drop-shadow(0px 4.32px 27px rgba(119, 15, 21, 0.08));
+    transform: rotate(-5.34deg);
+}
+
+.ofertas {
+    background: #F5F5F5;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.oferta {
+    background: #CCCCCC;
+    width: 12.96px;
+    height: 12.96px;
+    border-radius: 50%;
+    margin-right: 10px;  
+}
+
+.selecionada_oferta {
+    background: #C92071;
+}

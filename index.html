@@ -1,12 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Digital Store</title>
+    <link rel="icon" href="/images/Vector.svg" type="svg">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Open+Sans:wght@300;400;500;700&family=VT323&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    <h1>Teste</h1>
-</body>
+
+    <!-- IMPLEMENTAÇÃO DO CABEÇALHO -->
+    <header>
+        <section class="header">
+            <div class="logo">
+                <img id="logomarca" src="./images/Vector.svg" alt="logo">
+
+                <h1 id="titulo_logo">Digital Store</h1>
+            </div>
+            <input id="pesquisa" type="text" placeholder="Pesquisar Produto...">
+            <a id="cadastrar" href="">Cadastre-se</a>
+            <a href="#" id="botao_entrar">Entrar</a>
+            <a href=""><img src="./images/Group 53581.png" alt="logo do carrinho"></a>
+        </section>
+    </header>
+
+    <!-- IMPLEMENTAÇÃO DO BARRA DE NAVEGAÇÃO -->
+    <nav>
+        <a class="categoria selecionada_sessao" href="">Home</a>
+        <a class="categoria" href="">Produtos</a>
+        <a class="categoria" href="">Categorias</a>
+        <a class="categoria" href="">Meus Pedidos</a>
+    </nav>
+
+    <!-- IMPLEMENTAÇÃO DA SESSÃO PRINCIPAL DO SITE -->
+    <main>
+
+        <!-- IMPLEMENTAÇÃO DA DESCRIÇÃO DA OFERTA -->
+        <section class="container">
+            <p id="titulo_sessao">Melhores ofertas personalizadas</p>
+            <h1 id="titulo_oferta">Queima de <br>Estoque Nike <img id="foguinho" src="/images/foguinho.png"
+                    alt="foguinho"></h1>
+            <p id="descricao_oferta">Para aproveitar as ofertas da Semana do Consumidor Nike.<br><strong>Descontos até
+                    60% OFF.</strong><br> Aqui você celebra o seu
+                esporte e o seu estilo com ofertas imperdíveis. </p>
+            <a href="#" id="botao_oferta">Ver Ofertas</a>
+        </section>
+        <a href="#"><img id="imagem_tenis" src="/images/White-Sneakers-PNG-Clipart 1.png" alt="imagem tenis nike"></a>
+        <div>
+            <img src="/images/Ornament 11.png" alt="ornamento">
+        </div>
+    </main>
+
+    <!-- IMPLEMENTAÇÃO DAS OPÇÕES DE OFERTAS -->
+    <div class="ofertas">
+        <form>
+            <input type="radio" class="oferta selecionada_oferta" name="oferta"></input>
+            <input type="radio" class="oferta" name="oferta"></input>
+            <input type="radio" class="oferta" name="oferta"></input>
+            <input type="radio" class="oferta" name="oferta"></input>
+        </form>
+    </div>
+
 </html>
